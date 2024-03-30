@@ -1,0 +1,23 @@
+.tagsContainer{
+    background-color: #08002b;
+    height: 5rem;
+    width: 40rem;
+    margin: 0 auto;
+    border-radius: 5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.tags{
+    all: unset;
+    height: 4rem;
+    text-align: center;
+    border-radius: 5rem;
+    flex: 1;
+    font-size: 2 rem;
+    transition: background-color 0.2s;
+}
+.tags:hover{
+    background-color: #3b3e56;
+    cursor: pointer;
+}

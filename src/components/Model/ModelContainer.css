@@ -1,0 +1,84 @@
+.Container{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    z-index: 150;
+}
+
+.ModelContainer{
+    width: 60rem;
+    height: 60rem;
+    background-color: rgb(226, 221, 221);
+}
+
+.ModelHeader{
+    color: black;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.ModelTitle{
+    font-size: 5rem;
+}
+
+.ModelCloseButton{
+    all:unset;
+    cursor: pointer;
+}
+
+.InputWrapper{
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.FormControl{
+    flex: 1;
+   
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 1rem;
+}
+
+label{
+    font-size: 2rem;
+}
+
+input{
+    font-size: 2rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    background: #ead8fc;
+}
+.ButtonWrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+.ApplyButton{
+    all: unset;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(230, 130, 7);
+    border: 0.7rem;
+    cursor: pointer;
+}
+
+@media(max-width: 600px){
+    .ModelContent {
+        width: 90%;
+        height: auto;
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+}
+

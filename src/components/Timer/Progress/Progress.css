@@ -1,0 +1,19 @@
+.outerCircle {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.innerCircle {
+    width: 33rem;
+    height: 33rem;
+    padding: 2.8rem 0 0 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background:   #252525;
+    border-radius: 50%;
+}
